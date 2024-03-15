@@ -67,6 +67,40 @@
 
 <!-- Making sections and headers are easier now and making a resume fun and simple! -->
 
-
+<h3>Contact Me</h3>
+<form>
+    <label for="name"> Name: 
+        <input type="name" placeholder="Jesus Santiago"><br>
+    </label> 
+    <label for="email"> Enter Email:
+        <input type="email" placeholder="soos.santiago@gmail.com" name="email" id="email"></label>
+        <br> 
+    <label for="organization"> Organization:
+        <input type="organization" placeholder="In-N-Out Burger" >
+    </label><br> 
+    <label for="role">Role:
+        <input type="role" placeholder="Cook"> 
+    </label><br>
+  Reasons For Contact:
+  <select name="Contact">
+    <option value="">--Choose One--</option>
+    <option value="">Job Offer</option>
+    <option value="">Contact Me</option>
+    <option value="">Other</option>
+  </select><br>
+</form>
+  <form>
+<h3><p>What Genre of Music Do You Listen To?</p></h3>
+<label for=""><input type="radio" name="music-genre" value="Hip-Hop/Rap ">Hip-Hop/Rap</label><br>
+<label for=""><input type="radio" name="music-genre" value="Pop ">Pop</label><br>
+<label for=""><input type="radio" name="music-genre" value="Country ">Country</label><br>
+<label for=""><input type="radio" name="music-genre" value="Classical ">Classical</label><br>
+<label for=""><input type="radio" name="music-genre" value="R&B ">R&B</label><br>
+<button value="submit">Submit</button>
+</form><br>
+  
+<form action="">
+Message:<textarea name="message" id="" cols="20" rows="2" minlength="2" maxlength="500">Shoot me a message if you need any info!</textarea><button value="send"> Send</button>
+</form>
 </body>
 </html>
